@@ -81,23 +81,11 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>crudAlumnosDataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="FEditar.Designer.vb">
-      <DependentUpon>FEditar.vb</DependentUpon>
-    </Compile>
-    <Compile Include="FEditar.vb">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Include="Form1.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.vb">
       <DependentUpon>Form1.vb</DependentUpon>
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="F_Agregar.Designer.vb">
-      <DependentUpon>F_Agregar.vb</DependentUpon>
-    </Compile>
-    <Compile Include="F_Agregar.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -124,14 +112,8 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="FEditar.resx">
-      <DependentUpon>FEditar.vb</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="F_Agregar.resx">
-      <DependentUpon>F_Agregar.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
